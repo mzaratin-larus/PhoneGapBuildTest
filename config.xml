@@ -7,7 +7,31 @@
     <description>
         Prova di PhoneGap
     </description>
-    <gap:platform name="ios" />
-    <gap:platform name="android" />
-    <gap:platform name="winphone" />
+    <configuration>
+        <platforms>
+            <platform>ios</platform>
+            <platform>android</platform>
+            <platform>winphone</platform>
+            <platform>webos</platform>
+            <platform>symbian</platform>
+            <platform>blackberry</platform>
+        </platforms>
+    </configuration>
+    <plugin>
+        <groupId>com.github.chrisprice</groupId>
+        <artifactId>phonegap-build-maven-plugin</artifactId>
+        <version>0.0.7</version> 
+        <executions>
+            <execution>
+                <id>phonegap-build</id>
+                <goals>
+                    <goal>clean</goal>
+                    <goal>build</goal>
+                </goals>
+                <configuration>
+                    <configFile>src/main/resources/config.xml</configFile>
+                </configuration>
+            </execution>
+        </executions>
+    </plugin>
 </widget>

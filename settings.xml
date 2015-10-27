@@ -1,0 +1,10 @@
+<server>
+	<id>phonegap-build</id>
+	<username>mattia.zaratin@larus-ba.it</username>
+	<password>Zarate94</password> 
+</server>
+<properties>
+	<phonegap-build.server>phonegap-build</phonegap-build.server>
+    <phonegap-build.username>mattia.zaratin@larus-ba.it</phonegap-build.username>
+	<phonegap-build.password>Zarate94</phonegap-build.password>
+</properties>
