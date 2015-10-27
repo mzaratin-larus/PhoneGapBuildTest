@@ -1,0 +1,20 @@
+<plugin>
+	<groupId>com.github.chrisprice</groupId>
+	<artifactId>phonegap-build-maven-plugin</artifactId>
+	<version>0.0.2</version>
+	<executions>
+		<execution>
+			<id>phonegap-build</id>
+			<!-- the goals are lifecycle bound by default -->
+			<goals>
+				<goal>clean</goal>
+				<goal>build</goal>
+			</goals>
+			<configuration>
+				<platforms>
+					<platform>android</platform>
+				</platforms>
+			</configuration>
+		</execution>
+	</executions>
+</plugin>
